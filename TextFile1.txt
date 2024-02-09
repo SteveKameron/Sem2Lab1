@@ -1,6 +1,40 @@
-#include "Header1.h"
-#include <fstream>
-#include <vector>
+Реализация через динамический массив.
+
+
+int main() {
+	setlocale(LC_ALL, "RU");
+	std::cout << "Enter Security Class: " << std::endl;
+	int Class_Sec;
+	std::cin >> Class_Sec;
+	std::ifstream file("input.txt");
+	int n;
+	file >> n;
+	FireWall* mass = new FireWall[n];
+	std::string Temp_String;
+	int Temp_SClass;
+	for (int i = 0; i < n; i++) {
+		file >> Temp_String;
+		file >> Temp_SClass;
+		mass[i].Set_Name(Temp_String);
+		mass[i].Set_SecurityClass(Temp_SClass);
+	}
+	file.close();
+	std::ofstream Output;
+	Output.open("output.txt");
+	for (int i = 0; i < n; i++) {
+		if (mass[i].Get_SecurityClass() <= Class_Sec) {
+			mass[i].Print();
+			Output << "Name: " << mass[i].Get_Name();
+			Output << "   Security Class: " << mass[i].Get_SecurityClass() << std::endl << std::endl;
+		}
+	}
+	delete[] mass;
+	return 0;
+}
+
+
+Реализация через Vector (контейнер библиотеки STL)
+
 int main() {
 	setlocale(LC_ALL, "RU");
 	std::cout << "Enter Security Class: " << std::endl;

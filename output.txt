@@ -1,4 +1,3 @@
-Name: 2; Security Class: 3
 Name: 4; Security Class: 2
 Name: 5; Security Class: 2
 Name: 6; Security Class: 1

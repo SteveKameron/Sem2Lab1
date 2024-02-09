@@ -11,8 +11,8 @@ FireWall::FireWall() {
 }
 
 void FireWall::Print() {
-	std::cout << "Name: " << std::endl;
-	std::cout << "; Security Class: " << Security_Class << std::endl;
+	std::cout << "Name: " << Name << std::endl;
+	std::cout << "  Security Class: " << Security_Class << std::endl << std::endl;
 }
 
 void FireWall::Set_Name(std::string ValueName) {

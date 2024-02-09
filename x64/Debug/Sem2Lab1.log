@@ -1,18 +1,2 @@
 ﻿  Source1.cpp
-  Source2.cpp
-C:\Users\173\source\repos\Sem2Lab1\Sem2Lab1\Source2.cpp(6,22): error C2146: синтаксическая ошибка: отсутствие ")" перед идентификатором "ValueName"
-C:\Users\173\source\repos\Sem2Lab1\Sem2Lab1\Source2.cpp(6,15): error C2226: синтаксическая ошибка: непредвиденный тип "std::string"
-C:\Users\173\source\repos\Sem2Lab1\Sem2Lab1\Source2.cpp(6,22): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "ValueName"
-C:\Users\173\source\repos\Sem2Lab1\Sem2Lab1\Source2.cpp(6,31): error C2059: синтаксическая ошибка: ,
-C:\Users\173\source\repos\Sem2Lab1\Sem2Lab1\Source2.cpp(6,43): error C2059: синтаксическая ошибка: )
-C:\Users\173\source\repos\Sem2Lab1\Sem2Lab1\Source2.cpp(6,45): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
-C:\Users\173\source\repos\Sem2Lab1\Sem2Lab1\Source2.cpp(6,45): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
-C:\Users\173\source\repos\Sem2Lab1\Sem2Lab1\Source2.cpp(11,10): error C2059: синтаксическая ошибка: )
-C:\Users\173\source\repos\Sem2Lab1\Sem2Lab1\Source2.cpp(11,12): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
-C:\Users\173\source\repos\Sem2Lab1\Sem2Lab1\Source2.cpp(11,12): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
-C:\Users\173\source\repos\Sem2Lab1\Sem2Lab1\Source2.cpp(16,27): error C2065: Name: необъявленный идентификатор
-C:\Users\173\source\repos\Sem2Lab1\Sem2Lab1\Source2.cpp(17,40): error C2065: Security_Class: необъявленный идентификатор
-C:\Users\173\source\repos\Sem2Lab1\Sem2Lab1\Source2.cpp(21,2): error C2065: Name: необъявленный идентификатор
-C:\Users\173\source\repos\Sem2Lab1\Sem2Lab1\Source2.cpp(25,9): error C2065: Security_Class: необъявленный идентификатор
-C:\Users\173\source\repos\Sem2Lab1\Sem2Lab1\Source2.cpp(29,9): error C2065: Name: необъявленный идентификатор
-  Создание кода...
+  Sem2Lab1.vcxproj -> C:\Users\173\source\repos\Sem2Lab1\x64\Debug\Sem2Lab1.exe
